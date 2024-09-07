@@ -1,0 +1,93 @@
+body {
+	background-image: url(sigmawhite.jpeg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.skibidi {color: #083344; font-family: arial;}
+body{
+	margin: 0px;
+}
+main{
+	margin: 20px;
+}
+h1{
+	text-align: center;
+}
+.navbar ul{
+		list-style-type: none;
+		background-color: #5093ae;
+		padding: 0px;
+		margin 0px;
+		overflow: hidden;
+}
+.navbar a{
+		color: white;
+		text-decoration: none;
+		padding: 15px;
+		display: block;
+		text-align: center;
+}
+.navbar a:hover{
+	background-color: #275c70;
+}
+.navbar li{
+	float: left;
+}
+main{
+		justify-content: left;
+		align-items: left;
+		min-height: 100vh;
+}
+h4{
+	font-size: 3em;
+	font-weight: 500;
+	color: #083344;
+	letter-spacing: 5px;
+	cursor: pointer;
+}
+h4 span{
+	transition: 0.5s;
+}
+h4:hover span:nth-child(1){
+	margin-right: 5px;
+}
+h4:hover span:nth-child(1):after{
+	content: "miss you boss";
+}
+h4:hover span{
+	color: #348cae;
+	text-shadow: 0 0 10px #348cae,
+				 0 0 20px #348cae,
+				 0 0 40px #348cae,
+				 0 0 60px #348cae,
+				 0 0 80px #348cae; 
+}
+h1{
+	color: #348cae;
+	text-shadow: 0 0 10px #348cae,
+				 0 0 20px #348cae,
+				 0 0 40px #348cae;				 
+}
+u{
+	color: #348cae;
+	text-shadow: 0 0 10px #348cae,
+				 0 0 20px #348cae,
+				 0 0 40px #348cae;
+}
+b{ 
+color: #6fcaee;
+	text-shadow: 0 0 10px #6fcaee,
+				 0 0 20px ##6fcaee,
+				 0 0 30px #6fcaee;
+}
+@keyframes fade-inout{
+0% (opacity: 1;}
+100% {opacity: 0;}
+}
+.fade-in-fade-out{
+	/* apply animation */
+	animation: fade-inout 2s;
+}
